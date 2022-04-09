@@ -3,59 +3,59 @@
 export const Work = [
     {
         id:1,
-        name:"Agency Landing Page",
-        description:"It is build on top of the React JS, with styledComponents and GSAP for smooth scrolling animations.",
-        tags:["react","gsap","styledComponents"],
+        name:"Sales Analysis App",
+        description:"This app is only for visualization of sales data and prediction of sales data in the following month.",
+        tags:["python","streamlit"],
         
-        demo:"https://agency-website-eta.vercel.app/",
-        github:"https://github.com/codebucks27/Agency-website"
+        demo:"https://share.streamlit.io/abizaregi/sales-data-analysis-app/main/sales-app.py",
+        github:"https://github.com/abizaregi/sales-data-analysis-app"
     },
     {
         id:2,
-        name:"Job listing website",
-        description:"A Job listing website build in ReactJS. With searching and filtering functionalities.",
-        tags:["react","sass"],
+        name:"Customer Segmentation",
+        description:"This app is for exploratory visualization of bank customer data and the results of customer segmentation on bank customers",
+        tags:["python","streamlit"],
         
-        demo:"http://react-job-listing-website.codebucks27.vercel.app/",
-        github:"https://github.com/codebucks27/react-job-listing-website"
+        demo:"https://share.streamlit.io/abizaregi/customer-segmentation-app/main/segmen-app.py",
+        github:"https://github.com/abizaregi/customer-segmentation-app"
         
     },
     {
         id:3,
-        name:"Dev.to Clone",
-        description:"A clone of Dev.to build using ReactJS. With realtime fetching of articles from dev.to using API.",
-        tags:["react","api","sass"],
+        name:"Portfolio Website",
+        description:"This website is suitable for building a career or looking for a dream job. with color change feature and dark/light theme.",
+        tags:["html","css","javascript"],
         
-        demo:"http://devto-clone-codebucks27.vercel.app/",
-        github:"https://github.com/codebucks27/devto-clone"
+        demo:"https://abizaregi.my.id/",
+        github:"https://github.com/vaftadevyst/portfolio-website"
     },
     {
         id:4,
-        name:"Sidebar Menu",
-        description:"A cool looking sidebar menu build using ReactJS and styledComponents.It has really smooth animations.",
-        tags:["react","styledComponents","react-router"],
+        name:"Profile Website",
+        description:"A company profile website with a space theme and every section that has a glow effect accompanied by vanilla-tilt js to turn the card into 3D.",
+        tags:["html","css","javascript"],
         
-        demo:"https://react-sidebar.vercel.app/",
-        github:"https://github.com/codebucks27/react-sidebar"
+        demo:"https://vaftadevyst.github.io/",
+        github:"https://github.com/vaftadevyst/vaftadevyst.github.io"
        
     },{
         id:5,
-        name:"Todo App(React + Redux)",
-        description:"A todo app build using Redux-toolkit and framer-motion for smooth animations.",
-        tags:["react","redux","framer-motion"],
+        name:"Dynamic Website",
+        description:"This website has a feature (CrUD) to create, update, and delete products that will appear on the home page.",
+        tags:["PHP","MySQL"],
         
-        demo:"http://react-redux-todo-app-git-main-codebucks27.vercel.app/",
-        github:"https://github.com/codebucks27/React-Redux-Todo-App"
+        demo:"https://thriftcrewneck.xyz/",
+        github:"https://github.com/vaftadevyst/dynamic-website"
         
     },
     {
         id:6,
-        name:"Responsive Navigation Menu",
-        description:"A reponsive navbar menu component in ReactJS with react-router functionalities. Built from scratch.",
-        tags:["react","react-router","css"],
+        name:"Mini Portfolio Website",
+        description:"A website that is suitable for showing off projects with a simple appearance but still very attractive to website visitors.",
+        tags:["html","css","javascript"],
         
-        demo:"http://react-responsive-navbar-codebucks27.vercel.app/",
-        github:"https://github.com/codebucks27/React-responsive-navbar"
+        demo:"https://vaftadevyst.github.io/mini-portfolio-website/",
+        github:"https://github.com/vaftadevyst/mini-portfolio-website"
         
     },
     

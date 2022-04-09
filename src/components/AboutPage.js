@@ -72,11 +72,11 @@ const AboutPage = () => {
             <img src={astronaut} alt="spaceman" />
         </Spaceman>    
         <Main>
-        I'm a front-end developer located in India. I love to create simple yet beautiful websites with great user experience.
-<br /> <br/>
-I'm interested in the whole frontend stack Like trying new things and building great projects. I'm an independent freelancer and blogger. I love to write blogs and read books.
-<br/> <br/>
-I believe everything is an Art when you put your consciousness in it. You can connect with me via social links.
+        I am a data analyst and web developer located in Indonesia. I like to analyze raw data into visualizations that are shaped into dashboard reports.
+        <br /> <br/>
+        I am interested in programming, especially website creation with an extraordinary user interface. I like to help make things of value to other people.
+        <br/> <br/>
+        I believe the results of the work enjoyed will be easier and better. You can connect with me via social links.
         </Main>
 
         <BigTitle text="ABOUT" top="10%" left="5%" />

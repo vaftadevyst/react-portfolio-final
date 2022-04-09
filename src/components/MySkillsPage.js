@@ -93,51 +93,48 @@ const MySkillsPage = () => {
 <ParticleComponent theme='light' />
             <Main>
 <Title>
-    <Design width={40} height={40} /> Designer
+    <Design width={40} height={40} /> Data Analyst
 </Title>
 <Description>
-I love to create design which speaks, Keep it clean, minimal and simple.
+I like to analyze raw data accurately, valuable and easy to understand for decision making.
 </Description>
 <Description>
-<strong>I like to Design</strong>
+<strong>i did it with</strong>
 <ul>
     <li>
-        Web Design
+        Python
     </li>
     <li>
-        Mobile Apps
+        Excel
     </li>
-</ul>
-</Description>
-<Description>
-<strong>Tools</strong>
-<ul>
     <li>
-       Figma
+        Tableau
     </li>
-    
+    <li>
+        Power BI
+    </li>
+    <li>
+        Google Analytics
+    </li>
 </ul>
 </Description>
 
             </Main>
             <Main>
 <Title>
-    <Develope width={40} height={40} /> Frontend Developer
+    <Develope width={40} height={40} /> Web Developer
 </Title>
 <Description>
-I value business or brand for which i'm creating, thus i enjoy bringing new ideas to life.
+I like to build websites with attractive appearance, features and amazing user interface for user convenience
 </Description>
 <Description>
-<strong>Skills</strong>
-<p>
-Html, Css, Js, React, Redux, Sass, Bootstrap, Tailwind, Firebase etc.
-</p>
-</Description>
-<Description>
-<strong>Tools</strong>
-<p>
-VScode, Github, Codepen etc.
-</p>
+<strong>programming language</strong>
+<ul>
+    <li>HTML,CSS, Javascript</li>
+    <li>PHP</li>
+    <li>MySQL</li>
+    <li>React</li>
+</ul>
 </Description>
 
             </Main>
