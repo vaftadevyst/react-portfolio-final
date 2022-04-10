@@ -2,7 +2,7 @@ import { motion } from 'framer-motion'
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import styled from 'styled-components'
-import { Instagram, Github, LinkedIn, Medium } from '../components/AllSvgs'
+import { Instagram, Github, LinkedIn, Medium, Whatsapp } from '../components/AllSvgs'
 import {DarkTheme} from '../components/Themes'
 
 
@@ -39,6 +39,15 @@ const SocialIcons = (props) => {
             >
                 <NavLink style={{color:'inherit'}}  target="_blank"   to={{pathname:"https://github.com/abizaregi"}}>
                     <Github width={25} height={25} fill={props.theme === "dark" ? DarkTheme.text  : DarkTheme.body  } />
+                </NavLink>
+            </motion.div>
+            <motion.div
+            initial={{transform:"scale(0)"}}
+            animate={{scale:[0,1,1.5,1]}}
+            transition={{type:'spring', duration:1, delay:1}}
+            >
+                <NavLink style={{color:'inherit'}}  target="_blank"   to={{pathname:"https://api.whatsapp.com/send/?phone=6289515192171&text&app_absent=0"}}>
+                    <Whatsapp width={25} height={25} fill={props.theme === "dark" ? DarkTheme.text  : DarkTheme.body  } />
                 </NavLink>
             </motion.div>
             <motion.div

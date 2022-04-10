@@ -5,7 +5,7 @@ import styled, { keyframes } from 'styled-components'
 import LogoComponent from '../subComponents/LogoComponent'
 import PowerButton from '../subComponents/PowerButton'
 import SocialIcons from '../subComponents/SocialIcons'
-import { YinYang } from './AllSvgs'
+import { YinYang, Mailme } from './AllSvgs'
 import Intro from './Intro'
 ;
 
@@ -158,7 +158,8 @@ const Main = () => {
                 whileTap={{scale: 0.9}}
                 
                 >
-                    Say hi..
+                    <Mailme width={35} height={35}/> <br></br>
+                    
                 </motion.h2>
             </Contact>
             {/* <BLOG to="/blog">
