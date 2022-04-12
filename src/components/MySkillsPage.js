@@ -13,12 +13,12 @@ import BigTitle from '../subComponents/BigTitlte'
 const Box = styled.div`
 background-color: ${props => props.theme.body};
 width: 100vw;
-height:100vh;
+height:100%;
 position: relative;
-display: flex;
-justify-content: space-evenly;
+display: grid;
+grid-gap: calc(1rem + 2vw);
+justify-content: flex-end;
 align-items: center;
-
 
 `
 
@@ -27,12 +27,32 @@ border: 2px solid ${props => props.theme.text};
 color: ${props => props.theme.text};
 background-color: ${props => props.theme.body};
 padding: 2rem;
-width: 30vw;
-height: 60vh;
+width: 55vw;
+height: auto;
 z-index:3;
 line-height: 1.5;
 cursor: pointer;
+margin: 40% 0 0;
+font-family: 'Ubuntu Mono',monospace;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
 
+&:hover{
+    color: ${props => props.theme.body};
+    background-color: ${props => props.theme.text};
+}
+`
+const Mainn = styled.div`
+border: 2px solid ${props => props.theme.text};
+color: ${props => props.theme.text};
+background-color: ${props => props.theme.body};
+padding: 2rem;
+width: 55vw;
+height: auto;
+z-index:3;
+line-height: 1.5;
+cursor: pointer;
 font-family: 'Ubuntu Mono',monospace;
 display: flex;
 flex-direction: column;
@@ -55,7 +75,11 @@ ${Main}:hover &{
         fill:${props => props.theme.body};
     }
 }
-
+${Mainn}:hover &{
+    &>*{
+        fill:${props => props.theme.body};
+    }
+}
 &>*:first-child{
 margin-right: 1rem;
 }
@@ -71,6 +95,11 @@ ${Main}:hover &{
    
         color:${props => props.theme.body};
     
+}
+${Mainn}:hover &{
+   
+    color:${props => props.theme.body};
+
 }
 
 strong{
@@ -89,7 +118,7 @@ const MySkillsPage = () => {
 
 <LogoComponent theme='light'/>
 <SocialIcons theme='light'/>
-<PowerButton />
+<PowerButton top='30%' left='3rem'/>
 <ParticleComponent theme='light' />
             <Main>
 <Title>
@@ -120,7 +149,7 @@ I like to analyze raw data accurately, valuable and easy to understand for decis
 </Description>
 
             </Main>
-            <Main>
+            <Mainn>
 <Title>
     <Develope width={40} height={40} /> Web Developer
 </Title>
@@ -137,7 +166,7 @@ I like to build websites with attractive appearance, features and amazing user i
 </ul>
 </Description>
 
-            </Main>
+            </Mainn>
 
             <BigTitle text="SKILLS" top="80%" right="30%" />
 

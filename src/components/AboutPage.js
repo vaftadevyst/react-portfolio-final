@@ -65,7 +65,7 @@ const AboutPage = () => {
 
 <LogoComponent theme='dark'/>
 <SocialIcons theme='dark'/>
-<PowerButton />
+<PowerButton top='25%' left='3rem'/>
 <ParticleComponent theme='dark' />
 
         <Spaceman>

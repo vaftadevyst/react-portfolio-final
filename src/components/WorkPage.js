@@ -11,6 +11,7 @@ import { Work } from "../data/WorkData";
 import Card from '../subComponents/Card';
 import { YinYang } from './AllSvgs';
 import BigTitlte from '../subComponents/BigTitlte';
+import Subtitle from '../subComponents/Subtitle';
 
 const Box = styled.div`
 background-color: ${props => props.theme.body};
@@ -92,7 +93,7 @@ const WorkPage = () => {
 
 <LogoComponent theme='dark'/>
 <SocialIcons theme='dark'/>
-<PowerButton />
+<PowerButton top='2.5rem' right='.5rem'/>
 
      <Main ref={ref}   variants={container} initial='hidden' animate='show'  >
          {
@@ -106,6 +107,7 @@ const WorkPage = () => {
 </Rotate>
 
 <BigTitlte text="WORK" top='10%' right="20%" />
+<Subtitle text="Scroll to Slide Right" top='22%' right='3%' />
         </Box>
 
         </ThemeProvider>

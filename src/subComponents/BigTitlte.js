@@ -13,7 +13,6 @@ z-index:0;
 
 `
 
-
 const BigTitlte = (props) => {
     return (
         <Text  top={props.top}  left={props.left}  right={props.right}>
@@ -21,5 +20,6 @@ const BigTitlte = (props) => {
         </Text>
     )
 }
+
 
 export default BigTitlte
