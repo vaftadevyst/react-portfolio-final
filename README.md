@@ -3,10 +3,6 @@
 ![GitHub stars](https://img.shields.io/github/stars/vaftadevyst/react-portfolio-final?style=social&logo=ApacheSpark&label=Stars&maxAge=2592000)&nbsp;&nbsp;
 ![GitHub forks](https://img.shields.io/github/forks/vaftadevyst/react-portfolio-final?style=social&logo=KashFlow)&nbsp;&nbsp;
 ![Github Followers](https://img.shields.io/github/followers/vaftadevyst.svg?style=social&label=Follow&maxAge=2592000)&nbsp;&nbsp;<br />
-<<<<<<< HEAD
-
-=======
->>>>>>> d80d811ec5596c48efe91391f6323a110d3aabb0
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
